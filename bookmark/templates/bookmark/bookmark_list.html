@@ -3,20 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>장고 북마크 리스트</title>
+    <style>
+        #tid {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 90%;
+            margin: auto;
+        }
 
+        #tid td, #tid th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #tid tr:nth-child(even){background-color: #f2f2f2;}
+
+        #tid tr:hover {background-color: #ddd;}
+
+        #tid th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div id="content">
         <h1>바로가기 모음</h1>
-            <ul>
-            {% for bookmark in object_list %}
-                <li>
-                    <a href="{% url 'detail' bookmark.id %}">
-                        {{ bookmark }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
+            <table id="tid">
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>url</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>한양여대</td>
+                    <td>
+                        <a href="/bookmark/1/">
+                            http://www.hywoman.ac.kr
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>구글</td>
+                    <td>
+                        <a href="/bookmark/2/">
+                            http://www.google.co.kr
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>네이버</td>
+                    <td>
+                        <a href="/bookmark/3">
+                            https://www.naver.com
+                        </a>
+                    </td>
+                </tr>
+            </table>
     </div>
 </body>
 </html>
