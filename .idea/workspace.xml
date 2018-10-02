@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36fe535c-24ad-408b-b84b-ed468c70fbd2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/tabular_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/tabular_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +16,8 @@
       <file leaf-file-name="bookmark_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="171">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file leaf-file-name="tabular_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/tabular_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="84" column="67" lean-forward="true" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
+            <state relative-caret-position="212">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -55,8 +55,8 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/bookmark/urls.py" />
         <option value="$PROJECT_DIR$/bookmark/views.py" />
-        <option value="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" />
         <option value="$PROJECT_DIR$/bookmark/templates/bookmark/tabular_list.html" />
+        <option value="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" />
       </list>
     </option>
   </component>
@@ -70,10 +70,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
-    <option name="y" value="16" />
-    <option name="width" value="1510" />
-    <option name="height" value="1010" />
+    <option name="x" value="960" />
+    <option name="width" value="983" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -151,7 +150,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="13" width="1208" height="808" extended-state="0" />
+    <frame x="768" y="0" width="786" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -160,8 +159,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28360415" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1489547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23553719" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -382,15 +381,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/tabular_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="84" column="67" lean-forward="true" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
+        <state relative-caret-position="212">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="171">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
