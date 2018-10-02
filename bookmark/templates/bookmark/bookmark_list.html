@@ -35,6 +35,22 @@
         a:link{color:#CCCCCC; text-decoration: none;}
         a:hover{color:#4E9C7F}
         a:visited{color:#65D3AA}
+
+        .youtubeWrap{
+            position: center;
+            width: 50%;
+            padding-bottom: 56.25%;
+
+
+        }
+        .youtubeWrap iframe{
+            position: absolute;
+            width:50%;
+            height: 50%;
+        }
+        #mar {
+            color:#65D3AA;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +94,13 @@
                     </td>
                 </tr>
             </table>
+    </div>
+    <br/>
+    <marquee loop="infinite" direction="right" id="mar">재생시켜 주세요</marquee>
+    <div  class="youtubeWrap">
+        <p align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/kn0Xzuzi-C8" frameborder="0" allowfullscreen>
+
+        </iframe>
     </div>
 </body>
 </html>
