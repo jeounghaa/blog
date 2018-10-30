@@ -1,6 +1,7 @@
 from django.conf.urls import url
 # from bookmark.views import BookmarkLV, BookmarkDV # 교과서 ch02 52쪽의 원래 코드를 아래와 같이 수정함
 from . import views  # 이렇게 수정하면 아래 코드에서와 같이 views.~ 형식으로 변경해야 함
+
 urlpatterns = [
     # ch02에서 코딩했던 부분을 아래와 같이 수정하였으므로 주석 처리함
     # # 북마크 앱을 위한 클래스 기반 뷰
