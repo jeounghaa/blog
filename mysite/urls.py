@@ -24,7 +24,7 @@ urlpatterns = [
     # admin.site.urls를 include(admin.site.urls)로 변경했으나 사실 동일한 효과를 발휘
     # 다른 앱에서 정의된 url 설정을 재활용할 때 include() 함수를 써야 하지만,
     # 예외적으로 admin.site.urls에 대해서는 include() 함수를 생략해도 무방함
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)), # url 패턴
 
     # 아래 두 url 패턴에서 뒷 부분에 패턴의 끝을 표시하는 '$' 문자가 없음!!!
 

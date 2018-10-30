@@ -1,3 +1,23 @@
+tabular_list.html
+
+j
+이
+유형
+HTML
+크기
+2KB (1,951바이트)
+사용한 스토리지
+0바이트소유자: undefined
+위치
+bookmark
+소유자
+뎀베
+수정한 날짜
+2018. 10. 15., 뎀베
+만든 날짜
+2018. 10. 15.
+설명 추가
+뷰어가 다운로드할 수 있음
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -7,51 +27,25 @@
         #tbl {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            width: 50%;
+            width: 90%;
             margin: auto;
-            text-align: center;
         }
 
         #tbl td, #tbl th {
             border: 1px solid #ddd;
             padding: 8px;
-
         }
 
-        #tbl tr:nth-child(even){background-color:#fff;}
+        #tbl tr:nth-child(even){background-color: #f2f2f2;}
 
-        /*#tid tr:hover {background-color: #ddd;}/*/
+        #tbl tr:hover {background-color: #ddd;}
 
         #tbl th {
             padding-top: 12px;
             padding-bottom: 12px;
-            text-align: center;
-            background-color: #65D3AA;
+            text-align: left;
+            background-color: #4CAF50;
             color: white;
-        }
-        #hh {
-            text-align: center;
-        }
-        a:link{color:#CCCCCC; text-decoration: none;}
-        a:hover{color:#4E9C7F}
-        a:visited{color:#65D3AA}
-
-        .youtubeWrap{
-            position: center;
-            width: 50%;
-            padding-bottom: 56.25%;
-
-
-        }
-        .youtubeWrap iframe{
-            position: absolute;
-            width:50%;
-            height: 50%;
-        }
-        #mar {
-            color:#65D3AA;
-            font-weight:bold;
-            font-size: 20px;
         }
     </style>
 </head>
@@ -83,13 +77,5 @@
             {% endfor %}
         </table>
     </div>
-    <br/>
-    <marquee loop="infinite" direction="right" id="mar">재생시켜 주세요</marquee>
-    <div  class="youtubeWrap">
-        <p align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/kn0Xzuzi-C8" frameborder="0" allowfullscreen>
-
-        </iframe>
-    </div>
 </body>
 </html>
-
