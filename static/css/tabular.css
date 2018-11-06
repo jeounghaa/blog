@@ -1,0 +1,34 @@
+#tbl {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#tbl td, #tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+#tbl tr:nth-child(even){background-color:#fff;}
+
+#tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #65D3AA;
+    color: white;
+}
+
+a:link{color:#CCCCCC; text-decoration: none;}
+a:hover{color:#4E9C7F}
+a:visited{color:#65D3AA}
+
+.centered {
+    text-align: center;
+}
+
+.leftpadding30percent {
+    padding-left: 40%;
+}
