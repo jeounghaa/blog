@@ -1,5 +1,7 @@
+git stash
 *.pyc
 *~
 __pycache__
 myvenv
 .DS_Store
+git stash pop
